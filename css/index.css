@@ -19,14 +19,20 @@
     position: fixed;
     top: 0;
 }
+
 .buttons button {
     background: none;
     border: none;
-    color: #ccc;
+    color: rgba(204, 204, 204, 0.082);
     padding: 20px;
     font-size: 20px;
     font-weight: bolder;
     cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.buttons button:hover {
+    color: rgb(204, 204, 204);
 }
 
 #clock {

@@ -29,4 +29,10 @@ document.getElementById('minus').addEventListener('click', () => {
     clockContente.style.fontSize = `${fontSize}em` 
 })    
 
+document.getElementById('full-mode').addEventListener('click', activeFullMode) 
 
+function activeFullMode() {
+    document.documentElement.requestFullscreen();
+    clockContente.style.fontSize = `44em` 
+}
+ 
